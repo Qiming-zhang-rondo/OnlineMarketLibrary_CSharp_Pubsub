@@ -1,0 +1,7 @@
+/Users/qiming/OnlineMarketLibrary_CSharp_Pubsub/daprImpl/obj/Debug/net8.0/OnlineMarket.DaprImpl.csproj.AssemblyReference.cache
+/Users/qiming/OnlineMarketLibrary_CSharp_Pubsub/daprImpl/obj/Debug/net8.0/OnlineMarket.DaprImpl.GeneratedMSBuildEditorConfig.editorconfig
+/Users/qiming/OnlineMarketLibrary_CSharp_Pubsub/daprImpl/obj/Debug/net8.0/OnlineMarket.DaprImpl.AssemblyInfoInputs.cache
+/Users/qiming/OnlineMarketLibrary_CSharp_Pubsub/daprImpl/obj/Debug/net8.0/OnlineMarket.DaprImpl.AssemblyInfo.cs
+/Users/qiming/OnlineMarketLibrary_CSharp_Pubsub/daprImpl/obj/Debug/net8.0/OnlineMarket.DaprImpl.csproj.CoreCompileInputs.cache
+/Users/qiming/OnlineMarketLibrary_CSharp_Pubsub/daprImpl/obj/Debug/net8.0/OnlineMarket.DaprImpl.MvcApplicationPartsAssemblyInfo.cs
+/Users/qiming/OnlineMarketLibrary_CSharp_Pubsub/daprImpl/obj/Debug/net8.0/OnlineMarket.DaprImpl.MvcApplicationPartsAssemblyInfo.cache

@@ -1,0 +1,6 @@
+@OnlineMarket.DaprImpl_HostAddress = http://localhost:5139
+
+GET {{OnlineMarket.DaprImpl_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

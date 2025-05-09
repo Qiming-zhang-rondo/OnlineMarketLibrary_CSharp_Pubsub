@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnlineMarket.Core", "core\OnlineMarket.Core.csproj", "{26F0DD08-5B00-409C-BFD0-ECC06FFBEA53}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CartMS", "daprImpl/CartMS/CartMS.csproj", "{xxx-xxx-xxx}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnlineMarket.DaprImpl.Tests", "daprImpl.Tests\OnlineMarket.DaprImpl.Tests.csproj", "{5A61C396-823D-463C-BE39-900D3C8090CE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{26F0DD08-5B00-409C-BFD0-ECC06FFBEA53}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26F0DD08-5B00-409C-BFD0-ECC06FFBEA53}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26F0DD08-5B00-409C-BFD0-ECC06FFBEA53}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26F0DD08-5B00-409C-BFD0-ECC06FFBEA53}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B49BD794-979A-41F1-ACB8-F99D8ED0B939}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B49BD794-979A-41F1-ACB8-F99D8ED0B939}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B49BD794-979A-41F1-ACB8-F99D8ED0B939}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B49BD794-979A-41F1-ACB8-F99D8ED0B939}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A61C396-823D-463C-BE39-900D3C8090CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A61C396-823D-463C-BE39-900D3C8090CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A61C396-823D-463C-BE39-900D3C8090CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A61C396-823D-463C-BE39-900D3C8090CE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

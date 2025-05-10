@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("OnlineMarket.DaprImpl.Tests")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+016992398df554eb235305fc737174d7408d5534")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ae8a316547955b93606d69c3cc9a34714e738563")]
 [assembly: System.Reflection.AssemblyProductAttribute("OnlineMarket.DaprImpl.Tests")]
 [assembly: System.Reflection.AssemblyTitleAttribute("OnlineMarket.DaprImpl.Tests")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

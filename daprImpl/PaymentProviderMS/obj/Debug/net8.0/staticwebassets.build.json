@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "lXupd2HPJ6NpaUgKG9g6p3kxwn7kBU//UitJw2/KPVk=",
+  "Source": "PaymentProviderMS",
+  "BasePath": "_content/PaymentProviderMS",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

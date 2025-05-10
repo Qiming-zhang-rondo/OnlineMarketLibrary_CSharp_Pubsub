@@ -44,3 +44,5 @@
 /Users/qiming/OnlineMarketLibrary_CSharp_Pubsub/daprImpl/CartMS/obj/Debug/net8.0/CartMS.pdb
 /Users/qiming/OnlineMarketLibrary_CSharp_Pubsub/daprImpl/CartMS/obj/Debug/net8.0/CartMS.genruntimeconfig.cache
 /Users/qiming/OnlineMarketLibrary_CSharp_Pubsub/daprImpl/CartMS/obj/Debug/net8.0/ref/CartMS.dll
+/Users/qiming/OnlineMarketLibrary_CSharp_Pubsub/daprImpl/CartMS/obj/Debug/net8.0/CartMS.sourcelink.json
+/Users/qiming/OnlineMarketLibrary_CSharp_Pubsub/daprImpl/CartMS/bin/Debug/net8.0/appsettings.json

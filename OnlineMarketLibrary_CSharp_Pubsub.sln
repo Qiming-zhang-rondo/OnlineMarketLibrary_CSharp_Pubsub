@@ -11,6 +11,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomerMS", "daprImpl/Cust
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrderMS", "daprImpl/OrderMS/OrderMS.csproj", "{xxx-xxx-xxx}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaymentMS", "daprImpl/PaymentMS/PaymentMS.csproj", "{xxx-xxx-xxx}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaymentProviderMS", "daprImpl/PaymentProviderMS/PaymentProviderMS.csproj", "{xxx-xxx-xxx}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductMS", "daprImpl/ProductMS/ProductMS.csproj", "{xxx-xxx-xxx}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnlineMarket.DaprImpl.Tests", "daprImpl.Tests\OnlineMarket.DaprImpl.Tests.csproj", "{5A61C396-823D-463C-BE39-900D3C8090CE}"
 EndProject
 Global

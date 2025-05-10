@@ -21,7 +21,16 @@ builder.Services.AddSingleton<IProductReplicaRepository, InMemoryProductReplicaR
 builder.Services.AddScoped<IEventPublisher, DaprEventPublisher>();
 
 // Core Service
-builder.Services.AddScoped<ICartService, CartServiceCore>();
+builder.Services.AddScoped<ICartService>(provider =>
+{
+    var cartRepo = provider.GetRequiredService<ICartRepository>();
+    var productReplicaRepo = provider.GetRequiredService<IProductReplicaRepository>();
+    var eventPublisher = provider.GetRequiredService<IEventPublisher>();
+    var config = builder.Configuration.GetSection("CartConfig").Get<CartConfig>();
+    var logger = provider.GetRequiredService<ILogger<CartServiceCore>>();
+
+    return new CartServiceCore(cartRepo, productReplicaRepo, eventPublisher, config, logger);
+});
 
 // Dapr client & Controllers
 builder.Services.AddDaprClient();

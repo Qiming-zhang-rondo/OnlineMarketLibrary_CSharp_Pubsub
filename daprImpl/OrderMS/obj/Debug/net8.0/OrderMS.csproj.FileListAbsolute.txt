@@ -1,0 +1,8 @@
+/Users/qiming/OnlineMarketLibrary_CSharp_Pubsub/daprImpl/OrderMS/obj/Debug/net8.0/OrderMS.csproj.AssemblyReference.cache
+/Users/qiming/OnlineMarketLibrary_CSharp_Pubsub/daprImpl/OrderMS/obj/Debug/net8.0/OrderMS.GeneratedMSBuildEditorConfig.editorconfig
+/Users/qiming/OnlineMarketLibrary_CSharp_Pubsub/daprImpl/OrderMS/obj/Debug/net8.0/OrderMS.AssemblyInfoInputs.cache
+/Users/qiming/OnlineMarketLibrary_CSharp_Pubsub/daprImpl/OrderMS/obj/Debug/net8.0/OrderMS.AssemblyInfo.cs
+/Users/qiming/OnlineMarketLibrary_CSharp_Pubsub/daprImpl/OrderMS/obj/Debug/net8.0/OrderMS.csproj.CoreCompileInputs.cache
+/Users/qiming/OnlineMarketLibrary_CSharp_Pubsub/daprImpl/OrderMS/obj/Debug/net8.0/OrderMS.MvcApplicationPartsAssemblyInfo.cs
+/Users/qiming/OnlineMarketLibrary_CSharp_Pubsub/daprImpl/OrderMS/obj/Debug/net8.0/OrderMS.MvcApplicationPartsAssemblyInfo.cache
+/Users/qiming/OnlineMarketLibrary_CSharp_Pubsub/daprImpl/OrderMS/obj/Debug/net8.0/OrderMS.sourcelink.json

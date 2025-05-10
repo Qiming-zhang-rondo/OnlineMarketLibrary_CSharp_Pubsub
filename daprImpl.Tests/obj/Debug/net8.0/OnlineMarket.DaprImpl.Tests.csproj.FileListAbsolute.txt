@@ -90,6 +90,7 @@
 /Users/qiming/OnlineMarketLibrary_CSharp_Pubsub/daprImpl.Tests/obj/Debug/net8.0/OnlineMarket.DaprImpl.Tests.AssemblyInfoInputs.cache
 /Users/qiming/OnlineMarketLibrary_CSharp_Pubsub/daprImpl.Tests/obj/Debug/net8.0/OnlineMarket.DaprImpl.Tests.AssemblyInfo.cs
 /Users/qiming/OnlineMarketLibrary_CSharp_Pubsub/daprImpl.Tests/obj/Debug/net8.0/OnlineMarket.DaprImpl.Tests.csproj.CoreCompileInputs.cache
+/Users/qiming/OnlineMarketLibrary_CSharp_Pubsub/daprImpl.Tests/obj/Debug/net8.0/OnlineMarket.DaprImpl.Tests.sourcelink.json
 /Users/qiming/OnlineMarketLibrary_CSharp_Pubsub/daprImpl.Tests/obj/Debug/net8.0/OnlineMa.1DC7DA03.Up2Date
 /Users/qiming/OnlineMarketLibrary_CSharp_Pubsub/daprImpl.Tests/obj/Debug/net8.0/OnlineMarket.DaprImpl.Tests.dll
 /Users/qiming/OnlineMarketLibrary_CSharp_Pubsub/daprImpl.Tests/obj/Debug/net8.0/refint/OnlineMarket.DaprImpl.Tests.dll

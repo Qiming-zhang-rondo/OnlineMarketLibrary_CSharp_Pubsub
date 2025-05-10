@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnlineMarket.Core", "core\O
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CartMS", "daprImpl/CartMS/CartMS.csproj", "{xxx-xxx-xxx}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomerMS", "daprImpl/CustomerMS/CustomerMS.csproj", "{xxx-xxx-xxx}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrderMS", "daprImpl/OrderMS/OrderMS.csproj", "{xxx-xxx-xxx}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnlineMarket.DaprImpl.Tests", "daprImpl.Tests\OnlineMarket.DaprImpl.Tests.csproj", "{5A61C396-823D-463C-BE39-900D3C8090CE}"
 EndProject
 Global

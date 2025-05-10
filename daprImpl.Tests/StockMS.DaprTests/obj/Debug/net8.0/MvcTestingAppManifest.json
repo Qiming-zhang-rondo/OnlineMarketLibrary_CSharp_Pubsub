@@ -1,0 +1,4 @@
+{
+  "OnlineMarket.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Gproject\\OnlineMarketLibrary_CSharp_Pubsub\\core",
+  "StockMS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Gproject\\OnlineMarketLibrary_CSharp_Pubsub\\daprImpl\\StockMS"
+}

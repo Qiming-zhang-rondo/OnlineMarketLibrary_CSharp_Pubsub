@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "H74/wZNPgqQ=",
+  "dgSpecHash": "HoA98h3Xd/E=",
   "success": true,
   "projectFilePath": "/Users/qiming/OnlineMarketLibrary_CSharp_Pubsub/daprImpl/ProductMS/ProductMS.csproj",
   "expectedPackageFiles": [
@@ -36,6 +36,7 @@
     "/Users/qiming/.nuget/packages/microsoft.openapi/1.2.3/microsoft.openapi.1.2.3.nupkg.sha512",
     "/Users/qiming/.nuget/packages/microsoft.win32.primitives/4.3.0/microsoft.win32.primitives.4.3.0.nupkg.sha512",
     "/Users/qiming/.nuget/packages/netstandard.library/1.6.1/netstandard.library.1.6.1.nupkg.sha512",
+    "/Users/qiming/.nuget/packages/newtonsoft.json/13.0.3/newtonsoft.json.13.0.3.nupkg.sha512",
     "/Users/qiming/.nuget/packages/npgsql/7.0.4/npgsql.7.0.4.nupkg.sha512",
     "/Users/qiming/.nuget/packages/npgsql.entityframeworkcore.postgresql/7.0.4/npgsql.entityframeworkcore.postgresql.7.0.4.nupkg.sha512",
     "/Users/qiming/.nuget/packages/npgsql.entityframeworkcore.postgresql.design/1.1.0/npgsql.entityframeworkcore.postgresql.design.1.1.0.nupkg.sha512",

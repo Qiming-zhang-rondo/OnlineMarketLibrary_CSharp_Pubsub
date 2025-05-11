@@ -11,7 +11,13 @@ var builder = WebApplication.CreateBuilder(args);
 
 // 加载 Cart 配置
 builder.Services.AddOptions();
-builder.Services.Configure<CartConfig>(builder.Configuration.GetSection("CartConfig"));
+var config = builder.Configuration.GetSection("CartConfig").Get<CartConfig>();
+if (config == null)
+{
+    Console.WriteLine("[FATAL] Failed to load CartConfig from appsettings.json");
+    Environment.Exit(1);
+}
+Console.WriteLine($"[INIT] CartConfig loaded. Streaming = {config.Streaming}");
 
 // InMemory 实现
 builder.Services.AddSingleton<ICartRepository, InMemoryCartRepository>();
@@ -26,7 +32,6 @@ builder.Services.AddScoped<ICartService>(provider =>
     var cartRepo = provider.GetRequiredService<ICartRepository>();
     var productReplicaRepo = provider.GetRequiredService<IProductReplicaRepository>();
     var eventPublisher = provider.GetRequiredService<IEventPublisher>();
-    var config = builder.Configuration.GetSection("CartConfig").Get<CartConfig>();
     var logger = provider.GetRequiredService<ILogger<CartServiceCore>>();
 
     return new CartServiceCore(cartRepo, productReplicaRepo, eventPublisher, config, logger);
@@ -49,9 +54,13 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
-app.UseCloudEvents();
+if (config.Streaming)
+{
+    app.UseCloudEvents();
+    app.MapSubscribeHandler(); // 订阅 pubsub
+}
+
 app.MapControllers();
 app.MapHealthChecks("/health");
-app.MapSubscribeHandler(); // 订阅用的
 
 app.Run();

@@ -45,3 +45,4 @@
 /Users/qiming/OnlineMarketLibrary_CSharp_Pubsub/daprImpl/CustomerMS/obj/Debug/net8.0/CustomerMS.pdb
 /Users/qiming/OnlineMarketLibrary_CSharp_Pubsub/daprImpl/CustomerMS/obj/Debug/net8.0/CustomerMS.genruntimeconfig.cache
 /Users/qiming/OnlineMarketLibrary_CSharp_Pubsub/daprImpl/CustomerMS/obj/Debug/net8.0/ref/CustomerMS.dll
+/Users/qiming/OnlineMarketLibrary_CSharp_Pubsub/daprImpl/CustomerMS/bin/Debug/net8.0/appsettings.json

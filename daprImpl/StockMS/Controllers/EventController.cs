@@ -1,9 +1,10 @@
 ﻿using Dapr;
 using Microsoft.AspNetCore.Mvc;
 using OnlineMarket.Core.Common.Events;
-using StockMS.Services;
+using OnlineMarket.Core.StockLibrary.Services;
 
-namespace StockMS.Controllers;
+
+namespace OnlineMarket.DaprImpl.StockMS.Controllers;
 
 [ApiController]
 public class EventController : ControllerBase
@@ -41,11 +42,13 @@ public class EventController : ControllerBase
     {
         try
         {
+            // Console.WriteLine($"[ProcessReserveStock] receive reserve stock message: customer={reserveStock.customerCheckout.CustomerId}, tid={reserveStock.instanceId}");
+    
             await this.stockService.ReserveStockAsync(reserveStock);
         }
         catch (Exception e)
         {
-            this.logger.LogCritical(e.ToString());
+           Console.WriteLine($"[ProcessReserveStock] will abort tid={reserveStock.instanceId} due to error: {e.Message}");
             await this.stockService.ProcessPoisonReserveStock(reserveStock);
         }
         return Ok();

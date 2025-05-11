@@ -8,7 +8,7 @@ using OnlineMarket.Core.SellerLibrary.Infra;
 using OnlineMarket.Core.SellerLibrary.Models;
 using OnlineMarket.Core.SellerLibrary.Repositories;
 
-namespace SellerMS.Repositories;
+namespace OnlineMarket.DaprImpl.SellerMS.Repositories;
 
 public class InMemorySellerRepository : ISellerRepository
 {

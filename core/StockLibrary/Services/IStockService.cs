@@ -1,7 +1,7 @@
 ﻿using OnlineMarket.Core.Common.Entities;
 using OnlineMarket.Core.Common.Events;
 
-namespace StockMS.Services
+namespace OnlineMarket.Core.StockLibrary.Services
 {
     public interface IStockService
     {

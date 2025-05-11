@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Gproject\\OnlineMarketLibrary_CSharp_Pubsub\\daprImpl\\StockMS\\StockMS.csproj": {}
+    "/Users/qiming/OnlineMarketLibrary_CSharp_Pubsub/daprImpl/StockMS/StockMS.csproj": {}
   },
   "projects": {
-    "C:\\Gproject\\OnlineMarketLibrary_CSharp_Pubsub\\core\\OnlineMarket.Core.csproj": {
+    "/Users/qiming/OnlineMarketLibrary_CSharp_Pubsub/core/OnlineMarket.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Gproject\\OnlineMarketLibrary_CSharp_Pubsub\\core\\OnlineMarket.Core.csproj",
+        "projectUniqueName": "/Users/qiming/OnlineMarketLibrary_CSharp_Pubsub/core/OnlineMarket.Core.csproj",
         "projectName": "OnlineMarket.Core",
-        "projectPath": "C:\\Gproject\\OnlineMarketLibrary_CSharp_Pubsub\\core\\OnlineMarket.Core.csproj",
-        "packagesPath": "C:\\Users\\f4848\\.nuget\\packages\\",
-        "outputPath": "C:\\Gproject\\OnlineMarketLibrary_CSharp_Pubsub\\core\\obj\\",
+        "projectPath": "/Users/qiming/OnlineMarketLibrary_CSharp_Pubsub/core/OnlineMarket.Core.csproj",
+        "packagesPath": "/Users/qiming/.nuget/packages/",
+        "outputPath": "/Users/qiming/OnlineMarketLibrary_CSharp_Pubsub/core/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\f4848\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "/Users/qiming/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -78,21 +78,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.408/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.403/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Gproject\\OnlineMarketLibrary_CSharp_Pubsub\\daprImpl\\StockMS\\StockMS.csproj": {
+    "/Users/qiming/OnlineMarketLibrary_CSharp_Pubsub/daprImpl/StockMS/StockMS.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Gproject\\OnlineMarketLibrary_CSharp_Pubsub\\daprImpl\\StockMS\\StockMS.csproj",
+        "projectUniqueName": "/Users/qiming/OnlineMarketLibrary_CSharp_Pubsub/daprImpl/StockMS/StockMS.csproj",
         "projectName": "StockMS",
-        "projectPath": "C:\\Gproject\\OnlineMarketLibrary_CSharp_Pubsub\\daprImpl\\StockMS\\StockMS.csproj",
-        "packagesPath": "C:\\Users\\f4848\\.nuget\\packages\\",
-        "outputPath": "C:\\Gproject\\OnlineMarketLibrary_CSharp_Pubsub\\daprImpl\\StockMS\\obj\\",
+        "projectPath": "/Users/qiming/OnlineMarketLibrary_CSharp_Pubsub/daprImpl/StockMS/StockMS.csproj",
+        "packagesPath": "/Users/qiming/.nuget/packages/",
+        "outputPath": "/Users/qiming/OnlineMarketLibrary_CSharp_Pubsub/daprImpl/StockMS/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\f4848\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "/Users/qiming/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -104,8 +104,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Gproject\\OnlineMarketLibrary_CSharp_Pubsub\\core\\OnlineMarket.Core.csproj": {
-                "projectPath": "C:\\Gproject\\OnlineMarketLibrary_CSharp_Pubsub\\core\\OnlineMarket.Core.csproj"
+              "/Users/qiming/OnlineMarketLibrary_CSharp_Pubsub/core/OnlineMarket.Core.csproj": {
+                "projectPath": "/Users/qiming/OnlineMarketLibrary_CSharp_Pubsub/core/OnlineMarket.Core.csproj"
               }
             }
           }
@@ -133,6 +133,10 @@
               "target": "Package",
               "version": "[7.0.9, )"
             },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.5.0, )"
@@ -157,7 +161,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.408/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.403/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

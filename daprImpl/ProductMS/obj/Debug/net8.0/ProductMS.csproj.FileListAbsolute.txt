@@ -46,3 +46,4 @@
 /Users/qiming/OnlineMarketLibrary_CSharp_Pubsub/daprImpl/ProductMS/obj/Debug/net8.0/ProductMS.genruntimeconfig.cache
 /Users/qiming/OnlineMarketLibrary_CSharp_Pubsub/daprImpl/ProductMS/obj/Debug/net8.0/ref/ProductMS.dll
 /Users/qiming/OnlineMarketLibrary_CSharp_Pubsub/daprImpl/ProductMS/bin/Debug/net8.0/appsettings.json
+/Users/qiming/OnlineMarketLibrary_CSharp_Pubsub/daprImpl/ProductMS/bin/Debug/net8.0/Newtonsoft.Json.dll

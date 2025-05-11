@@ -28,11 +28,14 @@ public class EventController : ControllerBase
     public async Task<ActionResult> ProcessStockConfirmed([FromBody] StockConfirmed stockConfirmed)
     {
         try
-        {
+        {Console.WriteLine($"[ProcessStockConfirmed] receive stock confirm message: tid={stockConfirmed.instanceId}");
+
             await this.orderService.ProcessStockConfirmed(stockConfirmed);
         }
         catch (Exception e)
         {
+            Console.WriteLine($"[ProcessStockConfirmed] will abort tid={stockConfirmed.instanceId}");
+
             this.logger.LogCritical(e.ToString());
             await this.orderService.ProcessPoisonStockConfirmed(stockConfirmed);
         }

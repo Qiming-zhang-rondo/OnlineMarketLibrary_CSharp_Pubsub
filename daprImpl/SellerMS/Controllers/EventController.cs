@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 using OnlineMarket.Core.Common.Events;
 using OnlineMarket.Core.SellerLibrary.Services;
 
-namespace SellerMS.Controllers;
+namespace OnlineMarket.DaprImpl.SellerMS.Controllers;
 
 [ApiController]
 public class EventController : ControllerBase

@@ -1,7 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore.Storage;
 using OnlineMarket.Core.StockLibrary.Models;
 
-namespace StockMS.Repositories;
+namespace OnlineMarket.Core.StockLibrary.Repositories;
 
 public interface IStockRepository
 {

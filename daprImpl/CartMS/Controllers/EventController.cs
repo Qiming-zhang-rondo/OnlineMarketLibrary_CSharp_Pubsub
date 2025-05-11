@@ -35,7 +35,8 @@ public class EventController : ControllerBase
     [HttpPost("ProcessProductUpdate")]
     [Topic(PUBSUB_NAME, nameof(ProductUpdated))]
     public async Task<ActionResult> ProcessProductUpdate([FromBody] ProductUpdated productUpdated)
-    {
+    {Console.WriteLine($"[CartMS] Received ProductUpdated event: product_id = {productUpdated.product_id}, name = {productUpdated.name}");
+
         try
         {
             this.cartService.ProcessProductUpdated(productUpdated);

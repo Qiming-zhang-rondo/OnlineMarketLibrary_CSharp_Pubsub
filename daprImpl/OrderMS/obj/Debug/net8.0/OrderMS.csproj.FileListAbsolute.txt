@@ -45,3 +45,4 @@
 /Users/qiming/OnlineMarketLibrary_CSharp_Pubsub/daprImpl/OrderMS/obj/Debug/net8.0/OrderMS.pdb
 /Users/qiming/OnlineMarketLibrary_CSharp_Pubsub/daprImpl/OrderMS/obj/Debug/net8.0/OrderMS.genruntimeconfig.cache
 /Users/qiming/OnlineMarketLibrary_CSharp_Pubsub/daprImpl/OrderMS/obj/Debug/net8.0/ref/OrderMS.dll
+/Users/qiming/OnlineMarketLibrary_CSharp_Pubsub/daprImpl/OrderMS/bin/Debug/net8.0/appsettings.json

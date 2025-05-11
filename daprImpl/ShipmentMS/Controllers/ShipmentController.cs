@@ -1,19 +1,16 @@
 ﻿using System.Net;
-using Dapr;
 using Microsoft.AspNetCore.Mvc;
 using OnlineMarket.Core.Common.Entities;
-using OnlineMarket.Core.Common.Events;
 using OnlineMarket.Core.ShipmentLibrary.Models;
 using OnlineMarket.Core.ShipmentLibrary.Repositories;
 using OnlineMarket.Core.ShipmentLibrary.Services;
 
-namespace ShipmentMS.Controllers;
+namespace OnlineMarket.DaprImpl.ShipmentMS.Controllers;
 
 [ApiController]
+[Route("shipment")]
 public class ShipmentController : ControllerBase
 {
-    private const string PUBSUB_NAME = "pubsub";
-
     private readonly IShipmentService shipmentService;
     private readonly IShipmentRepository shipmentRepository;
     private readonly ILogger<ShipmentController> logger;
@@ -25,24 +22,7 @@ public class ShipmentController : ControllerBase
         this.logger = logger;
     }
 
-    [HttpPost("ProcessShipment")]
-    [Topic(PUBSUB_NAME, nameof(PaymentConfirmed))]
-    public async Task<ActionResult> ProcessShipment([FromBody] PaymentConfirmed paymentConfirmed)
-    {
-        try
-        {
-            await this.shipmentService.ProcessShipment(paymentConfirmed);
-        }
-        catch (Exception e)
-        {
-            this.logger.LogCritical(e.ToString());
-            await this.shipmentService.ProcessPoisonShipment(paymentConfirmed);
-        }
-        return Ok();
-    }
-
-    [HttpPatch]
-    [Route("{instanceId}")]
+    [HttpPatch("{instanceId}")]
     [ProducesResponseType((int)HttpStatusCode.Accepted)]
     public async Task<ActionResult> UpdateShipment(string instanceId)
     {
@@ -50,8 +30,7 @@ public class ShipmentController : ControllerBase
         return Accepted();
     }
 
-    [HttpGet]
-    [Route("{customerId}/{orderId}")]
+    [HttpGet("{customerId}/{orderId}")]
     [ProducesResponseType(typeof(Shipment), (int)HttpStatusCode.OK)]
     [ProducesResponseType((int)HttpStatusCode.NotFound)]
     public ActionResult<Shipment> GetShipment(int customerId, int orderId)
@@ -77,8 +56,7 @@ public class ShipmentController : ControllerBase
         return NotFound();
     }
 
-    [Route("/cleanup")]
-    [HttpPatch]
+    [HttpPatch("/cleanup")]
     [ProducesResponseType((int)HttpStatusCode.Accepted)]
     public ActionResult Cleanup()
     {
@@ -86,5 +64,4 @@ public class ShipmentController : ControllerBase
         this.shipmentService.Cleanup();
         return Ok();
     }
-
 }

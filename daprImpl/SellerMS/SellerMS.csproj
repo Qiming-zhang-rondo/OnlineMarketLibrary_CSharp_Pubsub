@@ -15,7 +15,7 @@
 
     <ItemGroup>
 
-        <ProjectReference Include="..\..\..\OnlineMarketLibrary_CSharp_Pubsub\core\OnlineMarket.Core.csproj" />
+        <ProjectReference Include="..\..\core\OnlineMarket.Core.csproj" />
     </ItemGroup>
 
 </Project>

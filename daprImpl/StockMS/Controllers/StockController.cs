@@ -3,10 +3,11 @@ using Microsoft.AspNetCore.Mvc;
 using OnlineMarket.Core.Common.Entities;
 using OnlineMarket.Core.Common.Events;
 using OnlineMarket.Core.StockLibrary.Models;
-using StockMS.Repositories;
-using StockMS.Services;
+using OnlineMarket.Core.StockLibrary.Repositories;
+using OnlineMarket.Core.StockLibrary.Services;
 
-namespace StockMS.Controllers;
+
+namespace OnlineMarket.DaprImpl.StockMS.Controllers;
 
 [ApiController]
 public class StockController : ControllerBase

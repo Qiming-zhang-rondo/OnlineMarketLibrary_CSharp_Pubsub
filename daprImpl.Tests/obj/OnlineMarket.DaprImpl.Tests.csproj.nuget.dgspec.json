@@ -134,6 +134,22 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Dapr.AspNetCore": {
+              "target": "Package",
+              "version": "[1.11.0, )"
+            },
+            "FluentAssertions": {
+              "target": "Package",
+              "version": "[8.2.0, )"
+            },
+            "Microsoft.AspNetCore.Mvc": {
+              "target": "Package",
+              "version": "[2.3.0, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Testing": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
               "version": "[17.13.0, )"
@@ -468,6 +484,10 @@
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[7.0.9, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",

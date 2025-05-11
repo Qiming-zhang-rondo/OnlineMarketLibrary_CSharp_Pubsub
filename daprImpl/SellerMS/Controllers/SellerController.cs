@@ -5,7 +5,7 @@ using OnlineMarket.Core.SellerLibrary.DTO;
 using OnlineMarket.Core.SellerLibrary.Repositories;
 using OnlineMarket.Core.SellerLibrary.Services;
 
-namespace SellerMS.Controllers;
+namespace OnlineMarket.DaprImpl.SellerMS.Controllers;
 
 [ApiController]
 public class SellerController : ControllerBase

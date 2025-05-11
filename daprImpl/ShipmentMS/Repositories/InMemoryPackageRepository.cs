@@ -8,7 +8,7 @@ using OnlineMarket.Core.ShipmentLibrary.Infra;
 using OnlineMarket.Core.ShipmentLibrary.Models;
 using OnlineMarket.Core.ShipmentLibrary.Repositories;
 
-namespace ShipmentMS.Repositories;
+namespace OnlineMarket.DaprImpl.ShipmentMS.Repositories;
 
 public class InMemoryPackageRepository : IPackageRepository
 {

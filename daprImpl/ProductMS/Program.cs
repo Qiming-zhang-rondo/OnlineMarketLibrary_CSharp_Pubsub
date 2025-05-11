@@ -7,6 +7,7 @@ using Dapr.Client;
 
 using ProductMS.Repositories;
 using OnlineMarket.DaprImpl.ProductMS.Gateways;
+using System.Text.Json;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -34,6 +35,7 @@ builder.Services.AddScoped<IProductService>(provider =>
 // Dapr client & Controllers
 builder.Services.AddDaprClient();
 builder.Services.AddControllers().AddDapr(); // 让 [Topic] 生效
+
 
 // Swagger + 健康检查（可选）
 builder.Services.AddEndpointsApiExplorer();

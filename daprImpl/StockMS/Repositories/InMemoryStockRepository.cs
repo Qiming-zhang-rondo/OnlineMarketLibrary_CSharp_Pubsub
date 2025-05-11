@@ -4,8 +4,10 @@ using Microsoft.Extensions.Options;
 using OnlineMarket.Core.Common.Infra;
 using OnlineMarket.Core.StockLibrary.Infra;
 using OnlineMarket.Core.StockLibrary.Models;
+using OnlineMarket.Core.StockLibrary.Repositories;
 
-namespace StockMS.Repositories;
+
+namespace OnlineMarket.DaprImpl.StockMS.Repositories;
 
 public sealed class InMemoryStockRepository : IStockRepository
 {

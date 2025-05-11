@@ -6346,19 +6346,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\f4848\\.nuget\\packages\\": {}
+    "/Users/qiming/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Gproject\\OnlineMarketLibrary_CSharp_Pubsub\\daprImpl\\ShipmentMS\\ShipmentMS.csproj",
+      "projectUniqueName": "/Users/qiming/OnlineMarketLibrary_CSharp_Pubsub/daprImpl/ShipmentMS/ShipmentMS.csproj",
       "projectName": "ShipmentMS",
-      "projectPath": "C:\\Gproject\\OnlineMarketLibrary_CSharp_Pubsub\\daprImpl\\ShipmentMS\\ShipmentMS.csproj",
-      "packagesPath": "C:\\Users\\f4848\\.nuget\\packages\\",
-      "outputPath": "C:\\Gproject\\OnlineMarketLibrary_CSharp_Pubsub\\daprImpl\\ShipmentMS\\obj\\",
+      "projectPath": "/Users/qiming/OnlineMarketLibrary_CSharp_Pubsub/daprImpl/ShipmentMS/ShipmentMS.csproj",
+      "packagesPath": "/Users/qiming/.nuget/packages/",
+      "outputPath": "/Users/qiming/OnlineMarketLibrary_CSharp_Pubsub/daprImpl/ShipmentMS/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\f4848\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "/Users/qiming/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
@@ -6370,8 +6370,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Gproject\\OnlineMarketLibrary_CSharp_Pubsub\\core\\OnlineMarket.Core.csproj": {
-              "projectPath": "C:\\Gproject\\OnlineMarketLibrary_CSharp_Pubsub\\core\\OnlineMarket.Core.csproj"
+            "/Users/qiming/OnlineMarketLibrary_CSharp_Pubsub/core/OnlineMarket.Core.csproj": {
+              "projectPath": "/Users/qiming/OnlineMarketLibrary_CSharp_Pubsub/core/OnlineMarket.Core.csproj"
             }
           }
         }
@@ -6423,7 +6423,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.408/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.403/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

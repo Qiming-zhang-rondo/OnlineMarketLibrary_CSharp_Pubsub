@@ -4,6 +4,7 @@ using OnlineMarket.Core.Common.Requests;
 using Microsoft.AspNetCore.Mvc;
 using OnlineMarket.Core.ProductLibrary.Repositories;
 using OnlineMarket.Core.ProductLibrary.Services;
+using Newtonsoft.Json;
 
 
 namespace OnlineMarket.DaprImpl.ProductMS.Controllers;
@@ -112,6 +113,9 @@ public class ProductController : ControllerBase
     public async Task<ActionResult> UpdateProduct([FromBody] Product product)
     {
         try {
+            var rawJson = JsonConvert.SerializeObject(product);
+        Console.WriteLine($"[UpdateProduct] Raw JSON payload: {rawJson}");
+        Console.WriteLine($"[UpdateProduct] Parsed product_id: {product.product_id}");
             await this.productService.ProcessProductUpdate(product);
         } catch(Exception e)
         {
@@ -127,6 +131,9 @@ public class ProductController : ControllerBase
     [ProducesResponseType((int)HttpStatusCode.OK)]
     public async Task<ActionResult> UpdateProductPrice([FromBody] PriceUpdate update)
     {
+        var rawJson = JsonConvert.SerializeObject(update);
+        Console.WriteLine($"[price Update] Raw JSON payload: {rawJson}");
+        
         try{
             await this.productService.ProcessPriceUpdate(update);
         } catch(Exception e)

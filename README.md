@@ -65,6 +65,20 @@ All interfaces are fully platform-independent and injected by the platform integ
 | `EventGateways/`       | Implements core messaging interfaces (e.g., `IEventPublisher`) using injected `DaprClient`.   |
 
 
+
+## Platform Integration Requirements for Core Services
+
+| **Service**       | **Interfaces and Controllers**                                                                                   | **Controller Responsibilities**                                                                                                      |
+|-------------------|------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------|
+| **Customer**       | `ICustomerRepository`<br>`CustomerController`, `EventController`                                                 | Subscribe to payment events (e.g., `PaymentConfirmed`) and update customer state; provide state query and cleanup APIs.             |
+| **Order**          | `IOrderRepository`, `IEventPublisher`<br>`OrderController`, `EventController`                                    | Process checkout requests, handle payment and shipment events, manage order state and transaction marks.                            |
+| **Payment**        | `IPaymentRepository`, `IExternalProvider`, `IEventPublisher`<br>`PaymentController`, `EventController`           | Receive invoice events, call external payment gateways, publish payment results, and provide status management APIs.                |
+| **PaymentProvider**| `PaymentProviderController`                                                                                      | Handles synchronous requests for creating `PaymentIntent` via `POST /esp`.                                                           |
+| **Seller**         | `ISellerRepository`<br>`SellerController`, `EventController`                                                     | Receive order and shipment notifications, update seller views, support data clearing and reset.                                     |
+| **Shipment**       | `IShipmentRepository`, `IEventPublisher`, `IPackageRepository`<br>`ShipmentController`, `EventController`        | Handle payment confirmation, generate shipment records, and publish `DeliveryNotification` events.                                  |
+| **Stock**          | `IStockRepository`, `IEventPublisher`<br>`StockController`, `EventController`                                    | Subscribe to `ProductUpdated`, update inventory data, and process stock validation.                                                 |
+
+
 ## Running the Dapr Integration Example
 
 To run each microservice using Dapr sidecar integration, execute the following commands in the project's root directory:
